@@ -268,11 +268,47 @@ CMakeFiles/sfml-example.dir/main.cpp.o: main.cpp \
   /usr/include/SFML/Window/WindowHandle.hpp \
   /usr/include/SFML/Window/WindowStyle.hpp \
   windowControl.hpp \
-  /usr/include/SFML/Window.hpp
+  /usr/include/SFML/Graphics.hpp \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/CircleShape.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/ConvexShape.hpp \
+  /usr/include/SFML/Graphics/Font.hpp \
+  /usr/include/SFML/Graphics/Glyph.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/Graphics/RenderTexture.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shader.hpp \
+  /usr/include/SFML/Graphics/Glsl.hpp \
+  /usr/include/SFML/Graphics/Glsl.inl \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Text.hpp \
+  /usr/include/SFML/Graphics/VertexBuffer.hpp
 
 CMakeFiles/sfml-example.dir/windowControl.cpp.o: windowControl.cpp \
   /usr/include/stdc-predef.h \
   windowControl.hpp \
+  /usr/include/SFML/Graphics.hpp \
   /usr/include/SFML/Window.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/Config.hpp \
@@ -532,14 +568,103 @@ CMakeFiles/sfml-example.dir/windowControl.cpp.o: windowControl.cpp \
   /usr/include/SFML/Window/VideoMode.hpp \
   /usr/include/SFML/Window/Window.hpp \
   /usr/include/SFML/Window/WindowHandle.hpp \
-  /usr/include/SFML/Window/WindowStyle.hpp
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/CircleShape.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/ConvexShape.hpp \
+  /usr/include/SFML/Graphics/Font.hpp \
+  /usr/include/SFML/Graphics/Glyph.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/Graphics/RenderTexture.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shader.hpp \
+  /usr/include/SFML/Graphics/Glsl.hpp \
+  /usr/include/SFML/Graphics/Glsl.inl \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Text.hpp \
+  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc
 
+
+/usr/include/SFML/Graphics/VertexBuffer.hpp:
+
+/usr/include/SFML/Graphics/Text.hpp:
+
+/usr/include/SFML/Graphics/Sprite.hpp:
+
+/usr/include/SFML/Graphics/Glsl.hpp:
+
+/usr/include/SFML/Graphics/Shader.hpp:
+
+/usr/include/SFML/Graphics/RenderWindow.hpp:
+
+/usr/include/SFML/Graphics/RenderTarget.hpp:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/SFML/Graphics/Image.hpp:
+
+/usr/include/SFML/Graphics/Texture.hpp:
+
+/usr/include/SFML/Graphics/ConvexShape.hpp:
+
+/usr/include/SFML/Graphics/Vertex.hpp:
+
+/usr/include/SFML/Graphics/View.hpp:
+
+/usr/include/SFML/Graphics/Transformable.hpp:
+
+/usr/include/SFML/Graphics/Rect.inl:
+
+/usr/include/SFML/Graphics/Rect.hpp:
+
+/usr/include/SFML/Graphics/RenderStates.hpp:
+
+/usr/include/SFML/Graphics/Drawable.hpp:
+
+/usr/include/SFML/Graphics/Shape.hpp:
+
+/usr/include/SFML/Graphics/CircleShape.hpp:
+
+/usr/include/SFML/Graphics/Export.hpp:
+
+/usr/include/SFML/Graphics/BlendMode.hpp:
+
+/usr/include/SFML/Graphics.hpp:
 
 /usr/include/SFML/Window/WindowStyle.hpp:
 
 /usr/include/SFML/Window/WindowHandle.hpp:
 
 /usr/include/SFML/Window/Window.hpp:
+
+/usr/include/SFML/Graphics/Font.hpp:
 
 /usr/include/SFML/Window/VideoMode.hpp:
 
@@ -558,6 +683,8 @@ CMakeFiles/sfml-example.dir/windowControl.cpp.o: windowControl.cpp \
 main.cpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/SFML/Graphics/RenderTexture.hpp:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -689,6 +816,8 @@ SFML/Main.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
+/usr/include/SFML/Graphics/Glyph.hpp:
+
 /usr/include/c++/11/iostream:
 
 /usr/include/c++/11/bits/node_handle.h:
@@ -745,6 +874,8 @@ SFML/Main.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
+/usr/include/SFML/Graphics/Color.hpp:
+
 /usr/include/SFML/System.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
@@ -777,6 +908,8 @@ SFML/Main.hpp:
 
 /usr/include/c++/11/cwchar:
 
+/usr/include/SFML/Graphics/Glsl.inl:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
@@ -785,11 +918,15 @@ SFML/Main.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+/usr/include/SFML/Graphics/Transform.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/bits/std_function.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/SFML/Graphics/RectangleShape.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
@@ -798,6 +935,8 @@ SFML/Main.hpp:
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/map:
 
 /usr/include/SFML/System/Utf.hpp:
 
@@ -816,6 +955,8 @@ SFML/Main.hpp:
 /usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/SFML/System/Err.hpp:
+
+/usr/include/SFML/Graphics/PrimitiveType.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -900,6 +1041,8 @@ windowControl.hpp:
 /usr/include/stdio.h:
 
 windowControl.cpp:
+
+/usr/include/SFML/Graphics/VertexArray.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
