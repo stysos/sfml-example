@@ -10,6 +10,21 @@ WindowWrapper::WindowWrapper(int height, int width) {
 
 WindowWrapper::~WindowWrapper() {}
 
+void WindowWrapper::createBackground(std::string imagePath) {
+    sf::Texture texture;
+
+    if (!texture.loadFromFile(imagePath)) {
+        std::cout << "ERROR: Cannot find image" << std::endl;
+    }
+
+    sf::Sprite sprite;
+
+    sprite.setTexture(texture);
+
+    WindowWrapper::window->draw(sprite);
+
+}
+
 void WindowWrapper::createWindow() { 
     // May be better to just return unique ptr to window ?
     WindowWrapper::window = std::make_unique<sf::RenderWindow>();
@@ -64,7 +79,11 @@ void WindowWrapper::run() {
 
         WindowWrapper::window->clear(sf::Color::Black);
 
+
+        WindowWrapper::createBackground(std::string("lol.jpg"));
+
         WindowWrapper::createText(std::string("Balls"));
+
 
         WindowWrapper::window->display();
     }
