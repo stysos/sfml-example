@@ -10,6 +10,7 @@ class WindowWrapper {
     std::unique_ptr<sf::RenderWindow> window;
     WindowSettings windowSettings;
     void createText(std::string textToRender); 
+    void createBackground(std::string imagePath);
     void createWindow();
 
     public:
