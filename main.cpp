@@ -4,15 +4,10 @@
 
 #include "windowControl.hpp"
 
-
-
-int main(int, char**){
-    std::cout << "Hello, from sfml-example!\n";
+int main(int, char **)
+{
 
     WindowWrapper windowWrapper(800, 600);
 
-    
-
     windowWrapper.run();
-
 }
