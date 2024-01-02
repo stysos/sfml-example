@@ -240,4 +240,5 @@ CMakeFiles/sfml-example.dir/windowControl.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/11/iostream \
- /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc
+ /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
+ /home/styson/c/sfml-example/player.hpp

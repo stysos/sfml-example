@@ -12,6 +12,7 @@ find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 add_executable(sfml-example 
                             main.cpp
                             windowControl.cpp
+                            player.cpp
                             )
 
 target_link_libraries(sfml-example sfml-graphics sfml-audio)

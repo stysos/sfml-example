@@ -3,6 +3,8 @@
 // #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 
+#include "player.hpp"
+
 WindowWrapper::WindowWrapper(int height, int width)
 {
     WindowWrapper::windowSettings.height = height;
@@ -116,6 +118,10 @@ void WindowWrapper::run()
 
     WindowWrapper::initialTest();
 
+    WindowWrapper::window->setKeyRepeatEnabled(true);
+
+    Player myPlayer(std::string("textures/peng.jpg"));
+
     while (WindowWrapper::window->isOpen())
     {
         sf::Event event;
@@ -124,6 +130,23 @@ void WindowWrapper::run()
             // "close requested" event: we close the window
             if (event.type == sf::Event::Closed)
                 WindowWrapper::window->close();
+
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+            {
+                myPlayer.movePlayer('u', 6.0);
+            }
+            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+            {
+                myPlayer.movePlayer('d', 6.0);
+            }
+            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+            {
+                myPlayer.movePlayer('r', 6.0);
+            }
+            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+            {
+                myPlayer.movePlayer('l', 6.0);
+            }
         }
 
         WindowWrapper::window->clear(sf::Color::Black);
@@ -131,6 +154,8 @@ void WindowWrapper::run()
         // WindowWrapper::createBackground(std::string("textures/ground.png"));
 
         WindowWrapper::runningLoop();
+
+        myPlayer.drawPlayer(WindowWrapper::window.get());
 
         // WindowWrapper::createText(std::string("Balls"));
 
